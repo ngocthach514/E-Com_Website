@@ -1,0 +1,231 @@
+/* Navbar Custom Styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #555 !important;
+    font-size: 1rem;
+    padding: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff !important;
+}
+/* Hero Section Styles */
+#hero {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#hero .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* Product Categories Styles */
+#categories {
+    padding: 60px 0;
+}
+
+#categories h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#categories .card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#categories .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#categories .card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+#categories .card-body {
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    padding: 20px;
+}
+
+#categories .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+/* Featured Products Styles */
+#products {
+    padding: 60px 0;
+}
+
+#products h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#products .card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#products .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#products .card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+#products .card-body {
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    padding: 20px;
+}
+
+#products .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#products .card-text {
+    font-size: 1rem;
+    color: #777;
+}
+
+#products .btn-primary {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* Promotions and Offers Styles */
+#promotions {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+#promotions h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/* Testimonials Styles */
+#testimonials {
+    padding: 60px 0;
+}
+
+#testimonials h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#testimonials .card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#testimonials .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials .card-body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#testimonials .card-text {
+    font-size: 1rem;
+    color: #777;
+}
+
+#testimonials .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+/* About Us Styles */
+#about-us {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+#about-us h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#about-us p {
+    font-size: 1.2rem;
+    color: #777;
+}
+/* Why Choose Us Styles */
+#why-choose-us {
+    padding: 60px 0;
+}
+
+#why-choose-us h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#why-choose-us .col-md-4 {
+    margin-bottom: 30px;
+}
+
+#why-choose-us h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#why-choose-us p {
+    font-size: 1rem;
+    color: #777;
+}
