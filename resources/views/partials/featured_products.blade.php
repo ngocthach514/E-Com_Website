@@ -2,7 +2,7 @@
     <div class="container">
         <h2 class="text-center mb-4">Featured Products</h2>
         <div class="row">
-            @foreach ($products as $product)
+            @foreach ($featured_product as $product)
                 <div class="col-md-4 mb-4">
                     <div class="card">
                         <img src="{{ $product->image_url }}" class="card-img-top" alt="{{ $product->name }}">

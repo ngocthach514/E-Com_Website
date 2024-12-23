@@ -8,6 +8,6 @@
     @include('partials.featured_products')
     @include('partials.promotions')
     @include('partials.testimonials')
-    @include('partials.about-us')
+    @include('partials.about_us')
     @include('partials.why_choose_us')
 @endsection
