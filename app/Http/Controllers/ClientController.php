@@ -19,9 +19,7 @@ class ClientController extends Controller
                                 'discount' => 'discount',
                             ]);
         $categories = Category::limit(10)
-                                ->get([
-                                    
-                                ]);
+                                ->get();
         return view('client.home', compact('featured_product', 'categories'));
     }
 
